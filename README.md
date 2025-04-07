@@ -8,14 +8,14 @@ Plant diseases can significantly impact crop production. This project uses a Res
 
 ## Dataset
 
-- 📥 Source: [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease)
-- 📊 Contains over **50,000 labeled images** of plant leaves (both healthy and diseased)
+-  Source: [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease)
+-  Contains over **50,000 labeled images** of plant leaves (both healthy and diseased)
 
 
 ## Model Architecture
 
-- 🔸 **ResNet18** pretrained on ImageNet
-- 🔸 Final layer replaced with `nn.Linear` to match 38 output classes
-- 🔸 Loss Function: CrossEntropyLoss
-- 🔸 Optimizer: Adam
-- 🔸 Accuracy Achieved: **96% on validation set**
+-  **ResNet18** pretrained on ImageNet
+-  Final layer replaced with `nn.Linear` to match 38 output classes
+-  Loss Function: CrossEntropyLoss
+-  Optimizer: Adam
+-  Accuracy Achieved: **96% on validation set**
